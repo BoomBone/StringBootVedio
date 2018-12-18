@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.em.mybatis.mapper.VideosMapper" >
-  <resultMap id="BaseResultMap" type="com.em.mybatis.pojo.Videos" >
+  <resultMap id="BaseResultMap" type="com.em.pojo.Videos" >
     <!--
       WARNING - @mbg.generated
     -->
