@@ -19,4 +19,12 @@ public interface UserService {
      */
     void saveUser(Users user);
 
+    /**'
+     * 用户登录，根据用户名和密码查询用户
+     * @param name
+     * @param password
+     * @return Users
+     */
+    Users queryUserForLogin(String name, String password);
+
 }
