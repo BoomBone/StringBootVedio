@@ -5,10 +5,11 @@ import com.em.pojo.Users;
 import com.em.service.UserService;
 import org.n3r.idworker.Sid;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-
+@Service
 public class UserServiceImpl implements UserService {
 
     @Autowired
